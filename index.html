@@ -1,41 +1,296 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZombieWorld</title>
+
+    <title>La Chelita</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <body style="background-image: url('https://preview.colorkit.co/color/006400.png?static=true');">
-     <table width="100%" height="100%">
-    <tr>
-        <td align="center" valign="middle">
-          <h1>Oh no! The alarm is going off while you are in class! 
- </h1>
- <img src="https://media.tenor.com/dAjBzKj9H3AAAAAM/danger-alert.gif" alt="Danger Alert">
- <h2> You hear screaming somewhere outside.
-Your phone has no service... You dont know 
-what’s happening!
 
-do you...</h2>
+    <!-- ANNOUNCEMENT BAR -->
 
-<a href="choice1.html">
-    <button>
-        <h1>Stay Inside the classroom!</h1>
-        <h2>stay safe with your
-classmates...</h2>
-    </button>
-</a>
-<br><br>
+    <div class="announcement" id="announcement">
 
-<a href="choice2.html">
-    <button>
-        <h1>Leave the building!</h1>
-        <h2>let’s find out what’s happening!</h2>
-    </button>
-</a>
-     </td>
-    </tr>
-</table>
+        <div class="announcement-content">
+            <strong>DAILY HAPPY HOUR SPECIALS</strong>
+            <span>3PM - 6PM & LATE NIGHT 10PM - 12AM</span>
+            <p>$12 COCKTAILS, $11 VINOS, $8 CERVEZAS, HALF PRICE BITES</p>
+        </div>
+
+        <button onclick="closeAnnouncement()" aria-label="Close announcement">
+            ×
+        </button>
+
+    </div>
+
+
+    <!-- CONTACT INFORMATION -->
+
+    <div class="contact-strip">
+
+       <a href="hours.html">45 West Houston, TX 10036</a>
+
+        <span>|</span>
+
+   <a href="hours.html">(212) 389-0000</a>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <header class="site-header">
+
+               <a href="index.html" class="brand">
+            <img src="image/logo.png" alt="La Chelita">
+        </a>
+
+        <button class="menu-toggle"
+            onclick="toggleMenu()"
+            aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav id="navigation">
+
+            <a href="menu.html">Menu</a>
+
+            <a href="hours.html">Hours</a>
+
+            <a href="story.html">Our Story</a>
+
+            <a href="catering.html">Catering</a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                HANDMADE TORTILLAS SINCE THE 1970s
+            </p>
+
+                        <h1>
+                <img src="image/logo.png" alt="La Chelita" class="hero-logo">
+            </h1>
+
+            <p class="hero-subtitle">
+                A table for everyone!
+            </p>
+
+            <p class="hero-description">
+                We make Jalisco dishes to feed the whole neighborhood, old friends and new, 
+                at reasonable prices.
+            </p>
+
+            <a href="menu.html" class="hero-button">
+                DISCOVER OUR MENU
+            </a>
+
+        </div>
+
+        <div class="hero-bottom-text">
+            HECHO CON AMOR
+        </div>
+
+    </section>
+
+
+    <!-- OUR STORY -->
+
+    <section class="story-section" id="story">
+
+        <div class="story-content">
+
+            <p class="section-eyebrow">
+                OUR STORY
+            </p>
+
+            <h2>
+                Welcome to La Chelita
+            </h2>
+
+            <p>
+                In the 1970s, Graciela "Chelita" Ramírez
+                opened a small tortillería and began feeding
+                her neighbors. They were families coming off
+                long shifts who wanted a hot plate that tasted
+                like home.
+
+                She pressed tortillas by hand every morning
+                and cooked the Jalisco dishes she knew by heart.
+            </p>
+
+            <p>
+                Today, her granddaughter, Jessica, runs the kitchen.
+            </p>
+
+            <a href="story.html" class="story-button">
+                OUR STORY
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- CHELITA EXPERIENCE -->
+
+    <section class="chelitaexperience-section">
+
+        <p class="section-eyebrow">
+            THE CHELITA EXPERIENCE
+        </p>
+
+        <h2>
+            More Than Just a Meal
+        </h2>
+
+        <div class="chelitaexperience-grid">
+
+            <div class="chelitaexperience-item">
+
+                <span>01</span>
+
+                <h3>Tradition</h3>
+
+                <p>
+                   Started as a small tortillería by Graciela “Chelita” Ramírez in the 1970s.
+                   Now her granddaughter, Jessica, continues the tradition of feeding the 
+                   neighborhood.
+    
+                </p>
+
+            </div>
+
+
+            <div class="chelitaexperience-item">
+
+                <span>02</span>
+
+                <h3>Freshness</h3>
+
+                <p>
+                   Pressed tortillas by hand every morning and
+                    Jalisco dishes we know by heart. 
+                </p>
+
+            </div>
+
+
+            <div class="chelitaexperience-item">
+
+                <span>03</span>
+
+                <h3>Community</h3>
+
+                <p>
+                    A welcoming place to share good, authentic Jalisco food.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HOURS AND LOCATION -->
+
+    <section class="hours-section" id="hours">
+
+        <div class="hours-content">
+
+            <p class="section-eyebrow">
+                COME VISIT US
+            </p>
+
+            <h2>
+                Join Us at the Table!
+            </h2>
+
+        
+              <p style="margin-bottom: 16px;">We look forward to welcoming you
+                to La Chelita.
+            </p>
+
+<a href="hours.html" class="hero-button">
+                VIEW HOURS & LOCATION
+            </a>
+           
+        </div>
+
+    </section>
+
+  
+ <!-- CATERING -->
+
+    <section class="catering-section" id="catering">
+
+        <div class="catering-content">
+
+        
+
+            <h2>
+               Have a birthday or special event coming up?
+            </h2>
+
+            <p>
+               Graciela “Chelita” Ramírez threw the best
+                birthday parties on the block in the 70s. And 
+                we still do, with our classic 
+                Jalisco dishes and a cake!
+</p>
+        
+            <a href="catering.html" class="story-button">
+                CATERING
+            </a>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+
+        <h2>LA CHELITA</h2>
+
+        <p>
+            HECHO CON AMOR.
+        </p>
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+
+            <a href="menu.html">Menu</a>
+
+            <a href="story.html">Our Story</a>
+
+            <a href="hours.html">Hours</a>
+
+            <a href="catering.html">Catering</a>
+
+        </div>
+
+    
+    </footer>
+
 </body>
 </html>

@@ -1,0 +1,455 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Menu | La Chelita</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body class="menu-page">
+
+      <!-- CONTACT INFORMATION -->
+
+    <div class="contact-strip">
+
+        <a href="hours.html">45 West Houston, TX 10036</a>
+
+        <span>|</span>
+
+    <a href="hours.html">(212) 389-0000</a>
+
+    </div>
+
+
+    <!-- NAVIGATION -->
+
+    <header class="site-header">
+      <a href="index.html" class="brand">
+            <img src="image/logo.png" alt="La Chelita">
+        </a>
+
+        <button class="menu-toggle" onclick="toggleMenu()"
+            aria-label="Toggle navigation">☰</button>
+
+        <nav id="navigation">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="hours.html">Hours</a>
+            <a href="story.html">Our Story</a>
+            <a href="catering.html">Catering</a>
+        </nav>
+    </header>
+
+    <!-- MENU HERO -->
+
+    <section class="menu-page-hero">
+        <div>
+            <p>HANDMADE TORTILLAS SINCE THE 1970s</p>
+            <h1>Our Menu</h1>
+            <span>HECHO CON AMOR</span>
+        </div>
+    </section>
+
+    <!-- MENU INTRODUCTION -->
+
+    <section class="menu-intro">
+
+        <h2>A table for everyone.</h2>
+        <p>
+         From breakfast
+            to dinner, there's something for everyone at La Chelita at reasonable prices.
+        </p>
+    </section>
+
+    <!-- CATEGORY NAVIGATION -->
+
+    <nav class="menu-category-nav" aria-label="Menu categories">
+        <a href="#breakfast">Breakfast</a>
+        <a href="#appetizers">Appetizers</a>
+        <a href="#salads">Salads</a>
+        <a href="#soups">Soups</a>
+        <a href="#sandwiches">Sandwiches</a>
+        <a href="#entrees">Entrées</a>
+        <a href="#desserts">Desserts</a>
+        <a href="#drinks">Drinks</a>
+    </nav>
+
+    <main class="full-menu">
+
+        <!-- BREAKFAST -->
+
+        <section class="menu-section" id="breakfast">
+            <div class="menu-section-heading">
+                <p>START YOUR DAY</p>
+                <h2>Breakfast</h2>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Chilaquiles Verde/Red <h4>$5</h4></h3>
+                    <p>Tortilla chips, salsa, fried eggs, queso fresco, avocado, and crema (Chelita's recipe).</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Breakfast Tacos <h4>$3.25 each</h4></h3>
+                    <p>Scrambled eggs, chorizo, cheese, and potatoes on fresh handmade corn tortillas.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Huevos Rancheros<h4>$9.50</h4></h3>
+                    <p>Fried eggs on tortillas, smothered in salsa ranchera, served with refried beans.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Migas<h4>$7.50</h4></h3>
+                    <p>Scrambled eggs with crispy tortilla strips, onions, tomatoes, peppers, and cheese.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Molletes<h4>$7.50</h4></h3>
+                    <p>Toasted bolillo with refried beans, melted cheese, and pico de gallo.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Tamales de Desayuno<h4>$3.50 each</h4></h3>
+                    <p>Breakfast tamales (rajas con queso or bean and cheese), served with salsa verde.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Avocado Toast Tejano<h4>$7.50</h4></h3>
+                    <p>Toasted bolillo, smashed avocado, queso fresco, pickled jalapeños, and pico de gallo.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- APPETIZERS -->
+
+        <section class="menu-section" id="appetizers">
+            <div class="menu-section-heading">
+                <p>PERFECT FOR SHARING</p>
+                <h2>Appetizers</h2>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Elote (Street Corn)<h4>$3.50</h4></h3>
+                    <p>Grilled corn with mayonesa, cotija cheese, lime, and chile piquín.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Nachos Loaded<h4>$6.50</h4></h3>
+                    <p>House-fried chips with melted cheese, black beans, jalapeños, crema, and guacamole.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Queso Fundido<h4>$8.50</h4></h3>
+                    <p>Melted Chihuahua cheese with chorizo, served with fresh tortillas.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Quesadillas<h4>$7.50</h4></h3>
+                    <p>Grilled tortillas with cheese and choice of chicken tinga, carne asada, or vegetables.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Jalapeño Rellenos<h4>$8.50</h4></h3>
+                    <p>Jalapeños stuffed with cheese, coated in egg batter, and fried.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SALADS -->
+
+        <section class="menu-section" id="salads">
+            <div class="menu-section-heading">
+                <p>FRESH & COLORFUL</p>
+                <h2>Salads</h2>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Ensalada de Nopales<h4>$8.50</h4></h3>
+                    <p>Grilled cactus, tomatoes, onions, queso fresco, and cilantro with lime vinaigrette.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Taco Salad<h4>$9.50</h4></h3>
+                    <p>Seasoned ground beef or chicken, lettuce, cheese, tomatoes, and guacamole in a crispy tortilla bowl.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Grilled Chicken Salad<h4>$9.50</h4></h3>
+                    <p>Mixed greens, avocado, black beans, corn, tomatoes, and crispy tortilla strips with chipotle ranch.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SOUPS -->
+
+        <section class="menu-section" id="soups">
+            <div class="menu-section-heading">
+                <p>COMFORT IN EVERY BOWL</p>
+                <h2>Soups</h2>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Caldo de Pollo<h4>$4.50</h4></h3>
+                    <p>Hearty chicken soup with vegetables, rice, and fresh lime.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Chicken Tortilla Soup<h4>$5.50</h4></h3>
+                    <p>Tomato broth with shredded chicken, crispy tortilla strips, avocado, and cheese.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Pozole Rojo<h4>$6.50</h4></h3>
+                    <p>Traditional hominy and pork soup with red chile broth (Chelita's Saturday special).</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Frijoles Charros<h4>$5.50</h4></h3>
+                    <p>Pinto bean soup with bacon, chorizo, and vegetables.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- SANDWICHES & TORTAS -->
+
+        <section class="menu-section" id="sandwiches">
+            <div class="menu-section-heading">
+                <p>HEARTY & SATISFYING</p>
+                <h2>Sandwiches & Tortas</h2>
+                <span>Add papas fritas or ensalada</span>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Torta de Carne Asada<h4>$10.50</h4></h3>
+                    <p>Grilled steak, avocado, lettuce, tomato, beans, and jalapeños on telera bread.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Torta de Milanesa<h4>$11.50</h4></h3>
+                    <p>Breaded chicken or beef, lettuce, tomato, avocado, and beans on telera.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Chorizo Burger<h4>$10.50</h4></h3>
+                    <p>Half beef, half chorizo patty with grilled onions, queso, and jalapeños.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Torta Ahogada<h4>$12.50</h4></h3>
+                    <p>Carnitas torta "drowned" in spicy tomato salsa (Guadalajara-style, Chelita's specialty).</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ENTREES -->
+
+        <section class="menu-section" id="entrees">
+            <div class="menu-section-heading">
+                <p>THE MAIN EVENT</p>
+                <h2>Entrées</h2>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Birria de Res<h4>$14.50</h4></h3>
+                    <p>Slow-braised beef in Jalisco-style chile broth, served with consommé, tortillas, onions, and cilantro (Chelita's recipe).</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Carne Asada Plate<h4>$13.50</h4></h3>
+                    <p>Grilled marinated steak with rice, charro beans, grilled onions, and tortillas.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Enchiladas<h4>$9.50</h4></h3>
+                    <p>Rolled tortillas with chicken, beef, or cheese in red or green sauce, served with rice and beans.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Tacos de Pescado<h4>$9.50</h4></h3>
+                    <p>Grilled fish with cabbage slaw, pico de gallo, and chipotle crema on corn tortillas.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Chiles Rellenos<h4>$8.50</h4></h3>
+                    <p>Roasted poblano peppers stuffed with cheese or picadillo, topped with salsa roja.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Fajitas<h4>$12.50</h4></h3>
+                    <p>Sizzling chicken, steak, or shrimp with peppers and onions, served with guacamole, crema, and tortillas.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Tamales Plate<h4>$11.50</h4></h3>
+                    <p>Two handmade tamales (pork in red chile, chicken in verde, or rajas con queso) with rice and beans.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Carne en su Jugo<h4>$13.50</h4></h3>
+                    <p>Jalisco-style beef stew with beans, bacon, and tomatillo broth (weekend special).</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Tex-Mex Combination<h4>$12.50</h4></h3>
+                    <p>Beef taco, cheese enchilada, and tamale with rice and beans.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- DESSERTS -->
+
+        <section class="menu-section" id="desserts">
+            <div class="menu-section-heading">
+                <p>SOMETHING SWEET</p>
+                <h2>Desserts</h2>
+            </div>
+
+            <div class="menu-items">
+                <article class="menu-item">
+                    <h3>Churros con Chocolate<h4>$4.50</h4></h3>
+                    <p>Cinnamon-sugar churros with Mexican chocolate dipping sauce.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Flan de Cajeta<h4>$5.50</h4></h3>
+                    <p>Creamy caramel custard made with goat's milk caramel.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Pastel de Tres Leches<h4>$6.50</h4></h3>
+                    <p>Light sponge cake soaked in three milks, topped with whipped cream.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Buñuelos<h4>$4.50</h4></h3>
+                    <p>Crispy fried dough dusted with cinnamon sugar.</p>
+                </article>
+
+                <article class="menu-item">
+                    <h3>Arroz con Leche<h4>$5.50</h4></h3>
+                    <p>Creamy rice pudding with cinnamon and raisins.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- DRINKS -->
+
+        <section class="menu-section drinks-section" id="drinks">
+            <div class="menu-section-heading">
+                <p>POUR SOMETHING SPECIAL</p>
+                <h2>Drinks</h2>
+            </div>
+
+            <div class="menu-items">
+
+                <div class="drink-category">
+                    <h3>Aguas Frescas</h3>
+                    <ul>
+                        <li><strong>Horchata</strong><span>Rice milk with cinnamon</span></li>
+                        <li><strong>Jamaica</strong><span>Hibiscus</span></li>
+                        <li><strong>Tamarindo</strong><span>Passion fruit</span></li>
+                        <li><strong>Piña</strong><span>Pineapple</span></li>
+                    </ul>
+                </div>
+
+                <div class="drink-category">
+                    <h3>Soft Drinks</h3>
+                    <ul>
+                        <li><strong>Mexican Coca-Cola</strong></li>
+                        <li><strong>Jarritos</strong><span>Assorted flavors</span></li>
+                        <li><strong>Fresh Lemonade</strong></li>
+                        <li><strong>Iced Tea</strong></li>
+                    </ul>
+                </div>
+
+                <div class="drink-category">
+                    <h3>Cocktails</h3>
+                    <ul>
+                        <li><strong>Margarita</strong><span>Classic lime, or frozen with fresh fruit</span></li>
+                        <li><strong>Paloma</strong><span>Tequila, grapefruit soda, lime, salt rim</span></li>
+                        <li><strong>Michelada</strong><span>Mexican beer with lime, hot sauce, and Clamato</span></li>
+                        <li><strong>Tequila Sunrise</strong><span>Tequila, orange juice, grenadine</span></li>
+                    </ul>
+                </div>
+
+                <div class="drink-category">
+                    <h3>Cerveza</h3>
+                    <ul>
+                        <li><strong>Draft</strong><span>Local Texas craft beers</span></li>
+                        <li><strong>Bottles</strong><span>Corona, Modelo, Pacifico, Dos Equis, Tecate</span></li>
+                    </ul>
+                </div>
+
+                <div class="drink-category">
+                    <h3>Wine</h3>
+                    <ul>
+                        <li><strong>Red</strong><span>Malbec, Tempranillo</span></li>
+                        <li><strong>White</strong><span>Albariño, Sauvignon Blanc</span></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            
+        </section>
+
+    </main>
+     <!-- HOURS AND LOCATION -->
+
+    <section class="hours-section" id="hours">
+
+        <div class="hours-content">
+
+            <p class="section-eyebrow">
+                COME VISIT US
+            </p>
+
+            <h2>
+                Join Us at the Table!
+            </h2>
+
+        
+              <p style="margin-bottom: 16px;">We look forward to welcoming you
+                to La Chelita.
+            </p>
+
+<a href="hours.html" class="hero-button">
+                VIEW HOURS & LOCATION
+            </a>
+           
+        </div>
+
+    </section>
+
+
+
+
+    <!-- FOOTER -->
+
+    <footer class="site-footer">
+        <h2>LA CHELITA</h2>
+        <p>HECHO CON AMOR.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="story.html">Our Story</a>
+            <a href="hours.html">Hours</a>
+            <a href="catering.html">Catering</a>
+        </div>
+
+    </footer>
+
+</body>
+</html>
+
